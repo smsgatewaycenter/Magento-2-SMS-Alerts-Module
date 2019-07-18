@@ -29,11 +29,16 @@ Go to your Magento 2 root directory and run the following command:
 # Configuration
 
 Module Configurations can be found in the Magento 2 admin panel under:
+
 **Stores->Configuration->SMS Gateway Center-> SMS API Configuration.**
+
 You can set SMP API Auth and other parameters such as API End Point, Sender ID, and Message Type.
 
+
 **Stores->Configuration->SMS Gateway Center-> Admin Configuration.**
+
 You can enable to edit message templates from this section.
+
 
 # License
 
