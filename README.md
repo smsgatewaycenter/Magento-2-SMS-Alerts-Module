@@ -2,7 +2,7 @@
 
 Magento 2 Sms Gateway Center SMS Alerts Notification to Magento Store Customers.
 
-# About SMS Gateway Center's Magento 2 SMS Alerts Notification Module
+### About SMS Gateway Center's Magento 2 SMS Alerts Notification Module
 
 One of the most used E-Commerce Script in the world is Magento. So we are giving away the Free Module to integrate with your shopping site 
 
