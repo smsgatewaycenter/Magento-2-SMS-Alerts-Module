@@ -21,7 +21,9 @@ The message templates are completely configurable from the Stores -&gt; Configur
 # Installation
  
 Go to your Magento 2 root directory and run the following command:
+
 composer require smsgatewaycenter/magento2-sms-alert-notifications
+
 bin/magento setup:upgrade
 
 # Configuration
