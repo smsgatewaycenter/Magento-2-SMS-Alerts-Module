@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <smsgatewaycenter_smsAlerts>
+            <accountSmsConfig>
+                <userId>YourUsername</userId>
+                <password>YourPassword</password>
+                <senderId>SMSGAT</senderId>
+                <msgType>text</msgType>
+                <apiEndpoint>https://www.smsgateway.center/SMSApi/rest/send</apiEndpoint>
+            </accountSmsConfig>
+        </smsgatewaycenter_smsAlerts>
+        <smsgatewaycenter_smsAlerts_admin>
+            <generalSmsConfig>
+                <enable>1</enable>
+            </generalSmsConfig>
+            <adminSmsConfig>
+                <sgcClientAddressTextMsg>Adress update: Your address has been successfully registered and updated in our records.</sgcClientAddressTextMsg>
+                <sgcSuccessfulOrderPlacedMsg>Order placed : Dear {firstName} {lastName}, Your order for {itemName} with order# {orderId} amounting to Rs. {itemPrice} has been placed.</sgcSuccessfulOrderPlacedMsg>
+                <sgcOrderOnHoldMsg>Order held : Dear {firstName} {lastName}, Your order for {itemName} with order# {orderId} amounting to Rs. {itemPrice} has been held.</sgcOrderOnHoldMsg>
+                <sgcOrderUnholdMsg>Order unheld : Dear {firstName} {lastName}, Your order for {itemName} with order# {orderId} amounting to Rs. {itemPrice} has been unheld.</sgcOrderUnholdMsg>
+                <sgcOrderCancelledMsg>Order cancelled : Dear {firstName} {lastName}, Your order for {itemName} with order# {orderId} amounting to Rs. {itemPrice} has been cancelled.</sgcOrderCancelledMsg>
+                <sgcInvoiceProcessMsg>Order invoiced : Dear {firstName} {lastName}, Your order for {itemName} with order# {orderId} amounting to Rs. {itemPrice} has been invoiced.</sgcInvoiceProcessMsg>
+                <sgcorderShipmentMsg>Order shipped : Dear {firstName} {lastName}, Your order for {itemName} with order# {orderId} amounting to Rs. {itemPrice} has been shipped.</sgcorderShipmentMsg>
+            </adminSmsConfig>
+        </smsgatewaycenter_smsAlerts_admin>
+    </default>
+</config>

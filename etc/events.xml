@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="customer_address_save_after">
+		<observer name="sgc_client_after_address_save_viv_observer" instance="SMSGatewayCenter\SMSAlerts\Observer\SgcClientAfterAdressSave" />
+	</event>
+	<event name="sales_order_invoice_save_after">
+		<observer name="sgc_invoice_process_observer" instance="SMSGatewayCenter\SMSAlerts\Observer\sgcInvoiceProcess" />
+	</event>
+	<event name="sales_order_save_after">
+		<observer name="sgc_client_order_saved_observer" instance="SMSGatewayCenter\SMSAlerts\Observer\sgcOrderSaved" />
+	</event>
+	<event name="sales_order_shipment_save_after">
+		<observer name="sgc_order_shipment_observer" instance="SMSGatewayCenter\SMSAlerts\Observer\sgcOrderShipment" />
+	</event>
+	<event name="checkout_submit_all_after">
+		<observer name="sgc_client_successful_order_placed_observer" instance="SMSGatewayCenter\SMSAlerts\Observer\sgcSuccessfulOrderPlaced" />
+	</event>
+</config>
