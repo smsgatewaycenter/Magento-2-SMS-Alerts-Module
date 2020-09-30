@@ -26,6 +26,8 @@ Go to your Magento 2 root directory and run the following command:
 
 ```bin/magento setup:upgrade```
 
+```bin/magento cache:flush```
+
 # Configuration
 
 Module Configurations can be found in the Magento 2 admin panel under:
